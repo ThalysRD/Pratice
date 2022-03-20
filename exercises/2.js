@@ -7,8 +7,7 @@
 // convertAge(70) // retornará 25550
 
 const convertAge = (age) => {
-    const year = 365
-    return age*year
+    
 }
 
 module.exports = convertAge

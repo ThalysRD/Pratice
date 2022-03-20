@@ -6,27 +6,7 @@
 // monthCorrespondent(1) // retornará "Janeiro"
 // monthCorrespondent(4) // retornará "Abril"
 const monthCorrespondent = (month) => {
-    if(month === undefined) {
-        return "Você precisa inserir um número"
-    }
-   if(month > 12 || month < 1){
-       return `Esse mês não existe`
-   }
-    switch(month){
-    case 12: return 'Dezembro'
-    case 11: return 'Novembro'
-    case 10: return 'Outubro'
-    case 9: return 'Setembro'
-    case 8: return 'Agosto'
-    case 7: return 'Julho'
-    case 6: return 'Junho'
-    case 5: return 'Maio'
-    case 4: return 'Abril'
-    case 3: return 'Março'
-    case 2: return 'Fevereiro'
-    case 1: return 'Janeiro'
-    
-}
+  
 }
 
 module.exports = monthCorrespondent

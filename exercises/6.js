@@ -2,21 +2,7 @@
 
 
 const reverse = (param) => {
-        if(typeof param !== 'boolean' && typeof param !== 'number'){
-            return `O valor passado é um(a) ${typeof param}`
-        }
     
-        if(typeof param === 'boolean' && param === true) {
-            return false
-        } else if(typeof param === 'boolean' && param === false){
-            return true
-        }
-
-        if(typeof param === 'number' && param > 0){
-            return param * -1
-        } else if(typeof param === 'number' && param < 0){
-            return param * -1
-        }
     
 }
 

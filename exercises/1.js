@@ -6,7 +6,7 @@
 
 
 const returnStr = (name) => {
-   return `Olá ${name}`
+   
 }
 
 
