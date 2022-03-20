@@ -6,8 +6,8 @@
 
 
 const returnStr = (name) => {
-    return `Olá ${name}`
+   return `Olá ${name}`
 }
 
-console.log(returnStr('Maria'))
+
 module.exports = returnStr

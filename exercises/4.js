@@ -28,5 +28,5 @@ const monthCorrespondent = (month) => {
     
 }
 }
-console.log(monthCorrespondent())
+
 module.exports = monthCorrespondent

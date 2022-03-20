@@ -20,5 +20,5 @@ const reverse = (param) => {
     
 }
 
-console.log(reverse())
+
 module.exports = reverse

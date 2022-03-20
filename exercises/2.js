@@ -10,5 +10,5 @@ const convertAge = (age) => {
     const year = 365
     return age*year
 }
-console.log(convertAge(25))
+
 module.exports = convertAge

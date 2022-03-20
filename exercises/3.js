@@ -5,5 +5,5 @@
 const calculateSalary = (hours, earnPerHour) => {
   return `O salário é igual a R$${hours*earnPerHour}`
 }
-console.log(calculateSalary(150, 40.5))
+
 module.exports = calculateSalary 

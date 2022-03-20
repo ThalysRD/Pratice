@@ -16,6 +16,6 @@ const biggerOrEqual = (num1, num2) => {
     } 
 }
 
-console.log(biggerOrEqual(5,10))
+
 
 module.exports = biggerOrEqual

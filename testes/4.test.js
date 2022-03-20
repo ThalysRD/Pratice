@@ -1,6 +1,6 @@
 const monthCorrespondent = require('../exercises/4')
 
-describe('Testa se a função retorna o mês correspondente', () => {
+describe('Testa se, a função retorna o mês correspondente', () => {
     it('Se o parametro passado for 1 retorna "Janeiro"', () => 
     expect(monthCorrespondent(1)).toBe('Janeiro'))
     it('Se o parametro passado for 2 retorna "Fevereiro"', () => 
@@ -27,7 +27,7 @@ describe('Testa se a função retorna o mês correspondente', () => {
     expect(monthCorrespondent(12)).toBe('Dezembro'))
 })
 
-describe('Testa se foi passado um mês existente', () => {
+describe('Testa se, foi passado um mês existente', () => {
     it('Se for Passado um número que não corresponde a algum mês do calendário retorne "Esse mês não existe"', () => 
     expect(monthCorrespondent(13)).toBe('Esse mês não existe'))
     it('Se for Passado um número que não corresponde a algum mês do calendário retorne "Esse mês não existe"', () => 
@@ -36,7 +36,7 @@ describe('Testa se foi passado um mês existente', () => {
     expect(monthCorrespondent(13)).toBe('Esse mês não existe'))
    })
 
-   describe('Testa se foi passado algum parametro', () => {
+   describe('Testa se, foi passado algum parâmetro', () => {
     it('Se for Passado um número que não corresponde a algum mês do calendário retorne "Você precisa inserir um número"', () => 
     expect(monthCorrespondent()).toBe('Você precisa inserir um número'))
    })
