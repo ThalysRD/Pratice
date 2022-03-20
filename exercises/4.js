@@ -2,11 +2,11 @@
 
 //OBS: A função precisa receber um parametro e o parametro recebido tem que ser referente a algum mês do calendário
 
-//EXEMPLO: 
+//EXEMPLO:
 // monthCorrespondent(1) // retornará "Janeiro"
 // monthCorrespondent(4) // retornará "Abril"
 const monthCorrespondent = (month) => {
-  
-}
+  //Escreva seu código aqui
+};
 
-module.exports = monthCorrespondent
+module.exports = monthCorrespondent;

@@ -3,7 +3,7 @@
 //Exemplo: calculateSalary(150, 40.5) // retornará "Salário igual a R$ 6075"
 
 const calculateSalary = (hours, earnPerHour) => {
-  
-}
+  //Escreva seu código aqui
+};
 
-module.exports = calculateSalary 
+module.exports = calculateSalary;

@@ -6,9 +6,7 @@
 // maiorOuIgual(5, 1) // retornará true
 
 const biggerOrEqual = (num1, num2) => {
-    
-}
+  //Escreva seu código aqui
+};
 
-
-
-module.exports = biggerOrEqual
+module.exports = biggerOrEqual;
