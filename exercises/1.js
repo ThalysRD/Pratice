@@ -5,7 +5,8 @@
 // returnStr("Maria") // retornará "Olá, Maria!"
 
 const returnStr = (name) => {
-  //Escreva seu código aqui
+  //Escreva seu código 
+  console.log("eu")
 };
 
 module.exports = returnStr;
